@@ -16,15 +16,15 @@ export class AuthService {
 
 
   entrar(emailLogin:UserLogin):Observable<UserLogin>{
-    return this.http.post<UserLogin>('https://apiboaacao.herokuapp.com/usuario/logar', emailLogin)
+    return this.http.post<UserLogin>('https://apiboaacao.herokuapp.com/usuarios/logar', emailLogin)
   }
 
   cadastrar(email:User):Observable<User>{
-    return this.http.post<User>('https://apiboaacao.herokuapp.com/usuario/cadastrar',email)
+    return this.http.post<User>('https://apiboaacao.herokuapp.com/usuarios/cadastrar',email)
   }
 
   getByIdUser(id: number): Observable<User>{
-    return this.http.get<User>(`https://apiboaacao.herokuapp.com/usuario/${id}`)
+    return this.http.get<User>(`https://apiboaacao.herokuapp.com/usuarios/${id}`)
   }
   
   logado(){
