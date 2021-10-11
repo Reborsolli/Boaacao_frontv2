@@ -5,6 +5,7 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 
 import { EquipeComponent } from './equipe/equipe.component';
+import { LoginComponent } from './entrar/entrar.component';
 
 
 
@@ -17,7 +18,7 @@ const routes: Routes = [
 
   {path: 'equipe', component: EquipeComponent},
 
-  {path: 'principal', component: PrincipalComponent},
+ 
 
   
 

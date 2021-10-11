@@ -7,14 +7,14 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
-import { LoginComponent } from './login/login.component';
+
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { FormsModule } from '@angular/forms';
 
 import { EquipeComponent } from './equipe/equipe.component';
 
-import { PrincipalComponent } from './principal/principal.component';
+
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 
 
@@ -24,11 +24,11 @@ import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delet
     AppComponent,
     MenuComponent,
     RodapeComponent,
-    LoginComponent,
+
     CadastrarComponent,
     InicioComponent,
     EquipeComponent,
-    PrincipalComponent,
+
 
     PostagemDeleteComponent
 
