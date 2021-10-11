@@ -11,7 +11,7 @@ import { OrderModule } from 'ngx-order-pipe';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
-import { EntrarComponent } from './entrar/entrar.component';
+import { LoginComponent } from './login/login.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
@@ -29,7 +29,7 @@ import { AlertasComponent } from './alertas/alertas.component';
     AppComponent,
     MenuComponent,
     RodapeComponent,
-    EntrarComponent,
+    LoginComponent,
     CadastrarComponent,
     InicioComponent,
     TemaComponent,
