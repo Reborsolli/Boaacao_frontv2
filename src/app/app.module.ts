@@ -13,6 +13,10 @@ import { InicioComponent } from './inicio/inicio.component';
 import { FormsModule } from '@angular/forms';
 
 import { EquipeComponent } from './equipe/equipe.component';
+import { EditComponent } from './edit/edit.component';
+import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.component';
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
+import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 
 
 
@@ -25,6 +29,10 @@ import { EquipeComponent } from './equipe/equipe.component';
     CadastrarComponent,
     InicioComponent,
     EquipeComponent,
+    EditComponent,
+    PostagemEditComponent,
+    UserEditComponent,
+    PostagemDeleteComponent,
   ],
   imports: [
     BrowserModule,
